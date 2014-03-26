@@ -21,6 +21,8 @@ from gtweak.tweakmodel import TWEAK_GROUP_WINDOWS, Tweak
 from gtweak.widgets import ListBoxTweakGroup, GSettingsComboEnumTweak, GSettingsComboTweak, GSettingsSwitchTweak, Title, GSettingsSwitchTweakValue, build_label_beside_widget
 from gtweak.utils import XSettingsOverrides
 
+from gi.repository import Gtk
+
 _shell = GnomeShellFactory().get_shell()
 _shell_loaded = _shell is not None
             
