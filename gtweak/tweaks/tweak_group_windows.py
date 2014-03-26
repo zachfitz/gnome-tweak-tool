@@ -90,6 +90,8 @@ TWEAK_GROUPS = [
         Title(_("Titlebar Buttons"), "", uid="title-theme"),
         ShowWindowButtons(_("Maximize"), "maximize"),
         ShowWindowButtons(_("Minimize"), "minimize"),
+        Title(_("HiDPI"), "", uid="title-hidpi"),
+        WindowScalingFactorTweak(),
     )
 ]
 
