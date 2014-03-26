@@ -236,6 +236,7 @@ class XSettingsOverrides:
         'Gtk/ShellShowsAppMenu': GLib.Variant.new_int32,
         'Gtk/EnablePrimaryPaste': GLib.Variant.new_int32,
         'Gtk/DecorationLayout': GLib.Variant.new_string,
+        'Gtk/WindowScalingFactor': GLib.Variant.new_int32,
     }
 
     def __init__(self):
